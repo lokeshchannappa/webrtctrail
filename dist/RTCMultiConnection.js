@@ -1483,17 +1483,9 @@ var RTCMultiConnection = function(roomid, forceOptions) {
 
             var servers = {
                 iceServers: [{
-                    urls: [
-                        'stun:stun.l.google.com:19302',
-                        'stun:stun1.l.google.com:19302',
-                        'stun:stun2.l.google.com:19302',
-                        'stun:stun.l.google.com:19302?transport=udp',
-                        'stun1.l.google.com:19302',
-                        'stun2.l.google.com:19302',
-                        'stun3.l.google.com:19302',
-                        'stun4.l.google.com:19302',
-                        'stun.stunprotocol.org:3478',
-                    ]
+                    //urls: 'stun:turn02.uswest.xirsys.com'
+                    urls: 'stun:stun.l.google.com:19302'
+                    //urls: '45.55.61.164:2013'
                 }]
             };
 
